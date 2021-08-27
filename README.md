@@ -1,2 +1,2 @@
-# alx-low_level_programming
-ALX Low Level Programming (C Projects)
+#ALX Low Level Programming
+* C Projects... Jus Getting Started

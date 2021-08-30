@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - My Main Block
+ * main -  Main Block
+ *
  * Return : 0 everytime
  */
 int main(void)

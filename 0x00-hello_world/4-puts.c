@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
  * main -  Main Block
- *
- * Return : 0 everytime
+ * Return: return 0 everytime
  */
 int main(void)
 {

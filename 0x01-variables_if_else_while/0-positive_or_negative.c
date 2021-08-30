@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Main block for code implementation
- * Return - return value of 0 everytime
+ * main - Main block for code implementation and Logic
+ * Return: return value of 0 everytime
 */
 int main(void)
 {

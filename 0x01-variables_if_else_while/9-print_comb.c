@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Print single digit number combination with spaces and commas.
- * Return - return 0
+ * Return: return 0
  */
 int main(void)
 {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints out all alphabets, upper case first followed by lower case.
- * return: returbs 0 everytime to halt code execution.
+ * Return: returns 0 everytime to halt code execution.
  */
 int main(void)
 {

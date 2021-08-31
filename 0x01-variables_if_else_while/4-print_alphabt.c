@@ -13,6 +13,10 @@ int main(void)
 		{
 			putchar(ch);
 		}
+		else
+		{
+			break;
+		}
 	}
 	putchar('\n');
 	return (0);

@@ -5,17 +5,13 @@
  */
 int main(void)
 {
-	int ch;
+	int ch = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (ch <= 'z')
 	{
 		if (ch != 'e' && ch != 'q')
 		{
 			putchar(ch);
-		}
-		else
-		{
-			break;
 		}
 	}
 	putchar('\n');

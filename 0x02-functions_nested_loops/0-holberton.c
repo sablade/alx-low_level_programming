@@ -5,9 +5,10 @@
  */
 int main(void)
 {
-	char [10] = "_putchar"
+	char school [10] = "_putchar";
+	int i;
 	
-	for (int i = 0; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
 		_putchar(school[i]);
 	}

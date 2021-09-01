@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Print The Required Text Out
  * Return: Return 0 on succes

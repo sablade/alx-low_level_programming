@@ -17,6 +17,11 @@ void times_table(void)
 				_putchar(rst / 10 + '0');
 				_putchar(rst % 10 + '0');
 			}
+			else if (rst > 0)
+			{
+				_putchar(' ');
+				_putchar(rst + '0');
+			}
 			else if (ctr != 0)
 			{
 				_putchar(' ');

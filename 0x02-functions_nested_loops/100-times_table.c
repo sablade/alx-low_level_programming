@@ -19,7 +19,7 @@ void print_times_table(int n)
 			{
 				_putchar(rst / 100 + '0');
 				_putchar((rst / 10 % 10) + '0');
-				_putchar(rst % 100 + '0');
+				_putchar(rst % 10 + '0');
 			}
 			else if (rst > 9)
 			{

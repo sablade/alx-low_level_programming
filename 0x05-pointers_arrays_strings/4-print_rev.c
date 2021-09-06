@@ -1,4 +1,4 @@
-#iniclude "main.h"
+#include "main.h"
 /**
  * print_rev - prints a string in reverse
  * @s: string to print
@@ -11,9 +11,9 @@ void print_rev(char *s)
 	strlen = _strlen(s);
 	for (index = strlen - 1; index >= 0; index--)
 	{
-		putchar(s[index]);
+		_putchar(s[index]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 /**

@@ -11,7 +11,7 @@ void rev_string(char *s)
 	length = _strlen(s) - 1;
 	while (length > i)
 	{
-		swap_chars(s + length, s + i);
+		swap_char(s + length, s + i);
 		i++;
 		length--;
 	}

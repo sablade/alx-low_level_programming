@@ -7,16 +7,17 @@
  */
 int main(void)
 {
-	char c;
-	int x;
+	int myrand;
+	int count;
+	int total;
 
-	srand(time(0));
-	while (x <= 2645)
+	srand(time(NULL));
+	for (count = 0, total = 2772; total > 122; count++)
 	{
-		c = rand() % 128;
-		x += c;
-		putchar(c);
+		myrand = (rand() % 125) + 1;
+		printf("%c", myrand);
+		total -= myrand;
 	}
-	putchar(2772 - x);
+	printf("%c", total);
 	return (0);
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*print_buffer -  C function that prints the content of an
-*  inputted number of bytes from a buffer.
+* print_buffer - C function that prints the content of an
+* inputted number of bytes from a buffer.
 * Prints 10 bytes per line.
 * Starts with the position of the first byte in hexadecimal (8 chars),
 * starting with `0`.
@@ -11,8 +11,8 @@
 * Prints the byte if it is printable; if not, prints `.`.
 * Each line ends with a new line `\n`.
 * If the inputted byte size is 0 or less, the function only prints a new line.
-*@b: number of bytes
-*@size: size of the byte
+* @b: number of bytes
+* @size: size of the byte
 */
 void print_buffer(char *b, int size)
 {

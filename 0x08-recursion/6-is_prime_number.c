@@ -32,7 +32,7 @@ int check_prime(int n, int resp)
 		return (0);
 	}
 	else
-	{	
+	{
 		return (check_prime(n, resp + 1));
 	}
 }

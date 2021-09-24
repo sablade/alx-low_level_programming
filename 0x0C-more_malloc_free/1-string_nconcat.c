@@ -6,9 +6,6 @@
  * @s1: first string
  * @s2: second string
  * @n: size of s2 to copy
- * Description: copies s1 and n bytes of s2 
- * New String = s1 + s2[0-(n-1)]
- * If n >= s2 , use entire s2 : Treat null as an empty string
  * Return: Returns NULL if function fails
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)

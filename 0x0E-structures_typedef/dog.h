@@ -6,6 +6,7 @@
  * @name: character string
  * @age: int 
  * @owner: character string
+ * dog_t - TypeDef for Struct Dog
  */
 typedef struct dog
 {

@@ -6,14 +6,18 @@
  * @name: character string
  * @age: int 
  * @owner: character string
- * dog_t - TypeDef for Struct Dog
  */
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog_t;
+};
+
+/**
+ * dog_t - Typedef fpr struct dog
+ */
+typdef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);

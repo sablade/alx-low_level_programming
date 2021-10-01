@@ -4,8 +4,8 @@
  * @name: string to print out
  * @f: function pointer with string argument
  */
-void print_name(char *name, void (*f)(*char))
+void print_name(char *name, void (*f)(char *))
 {
-	if (f != NULL )
+	if (f != NULL)
 		f(name);
 }

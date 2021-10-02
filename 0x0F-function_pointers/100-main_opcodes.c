@@ -9,7 +9,6 @@
  * */
 int main(int argc, char *argv[])
 {
-
 	int index, bytes;
 	int (*address)(int, char **) = main;
 	unsigned char opcode;

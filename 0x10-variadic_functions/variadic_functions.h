@@ -13,7 +13,7 @@ void _printint(va_list list);
 
 /**
  * struct checker - Struct
- * @type: type 
+ * @type: type
  * @f: function to print
  */
 typedef struct checker

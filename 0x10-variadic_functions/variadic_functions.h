@@ -12,7 +12,7 @@ void _printfloat(va_list list);
 void _printint(va_list list);
 
 /**
- * checker - Struct
+ * struct checker - Struct
  * @type: type 
  * @f: function to print
  */

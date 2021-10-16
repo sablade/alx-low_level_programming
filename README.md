@@ -1,2 +1,2 @@
 #ALX Low Level Programming
-* C Projects... Jus Getting Started
+* C Projects... Just Getting Started

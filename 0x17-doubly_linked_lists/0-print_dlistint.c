@@ -6,16 +6,9 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	const dlistint_t *tmp;
 	size_t elem = 0;
 
-	tmp = h;
-	if (h == NULL)
-	{
-		printf("Empty List");
-		return;
-	}
-	while (tmp != NULL)
+	while (h != NULL)
 	{
 		elem++;
 		printf("%d\n", h->next);
